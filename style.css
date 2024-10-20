@@ -20,9 +20,7 @@
     display: flex;
     justify-content: space-around;
 }
-.odinLogoName{
-    font-size: ;
-}
+
 .container2{
     width: 60%;
     height: 100rem;
@@ -80,4 +78,21 @@ input{
    
     
     margin: 10px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Norse-Bold.otf);
+  }
+
+ 
+.odinLogoName{
+    color: white;
+   
+    font-family: myFirstFont;
+    font-size: 200px;
+    width: 50%;
+}
+.odinLogoImage{
+    width: 50%;
+
 }
